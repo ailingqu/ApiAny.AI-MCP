@@ -1,0 +1,43 @@
+{
+  "name": "@apiany/mcp",
+  "version": "0.1.0",
+  "description": "MCP server for discovering APIAny models, pricing, docs, and integration examples.",
+  "type": "module",
+  "homepage": "https://apiany.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ailingqu/apiany-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ailingqu/apiany-mcp/issues"
+  },
+  "bin": {
+    "apiany-mcp": "./src/server.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "apiany",
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "api",
+    "llm",
+    "image-generation",
+    "video-generation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/server.js"
+  }
+}
