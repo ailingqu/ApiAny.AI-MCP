@@ -2,12 +2,21 @@
 
 Official APIAny MCP server and agent skill package for model discovery, pricing lookup, documentation context, and OpenAI-compatible integration examples.
 
+Official website: [https://apiany.ai](https://apiany.ai)
+
 ## What Is Included
 
 - `src/server.js`: MCP server for APIAny public model discovery, docs context, usage examples, and confirmed paid media tasks.
 - `skills/apiany-integration`: Agent skill for choosing APIAny models, estimating credits, and generating safe integration code.
 - `examples/mcp.json`: MCP client configuration example.
 - `docs/distribution.md`: Release checklist for npm, MCP registries, and skill marketplaces.
+
+## Links
+
+- Website: [https://apiany.ai](https://apiany.ai)
+- GitHub: [https://github.com/ailingqu/ApiAny.AI-MCP](https://github.com/ailingqu/ApiAny.AI-MCP)
+- Models: [https://apiany.ai/models](https://apiany.ai/models)
+- Docs context: [https://apiany.ai/llms.txt](https://apiany.ai/llms.txt)
 
 ## Install MCP
 
