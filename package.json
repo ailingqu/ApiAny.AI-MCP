@@ -6,10 +6,10 @@
   "homepage": "https://apiany.ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ailingqu/apiany-mcp.git"
+    "url": "git+ssh://git@github.com/ailingqu/ApiAny.AI-MCP.git"
   },
   "bugs": {
-    "url": "https://github.com/ailingqu/apiany-mcp/issues"
+    "url": "https://github.com/ailingqu/ApiAny.AI-MCP/issues"
   },
   "bin": {
     "apiany-mcp": "./src/server.js"
