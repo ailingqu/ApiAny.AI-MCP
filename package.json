@@ -16,7 +16,12 @@
   },
   "files": [
     "src",
+    "assets/readme",
+    "docs",
+    "examples",
+    "skills",
     "README.md",
+    "README.zh-CN.md",
     "CHANGELOG.md"
   ],
   "keywords": [

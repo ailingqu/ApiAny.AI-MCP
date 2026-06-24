@@ -1,0 +1,31 @@
+<svg width="1040" height="560" viewBox="0 0 1040 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">APIAny MCP client config screenshot</title>
+  <desc id="desc">Editor-style screenshot showing a client MCP configuration for APIAny MCP.</desc>
+  <rect width="1040" height="560" rx="32" fill="#F7FAFC"/>
+  <rect x="48" y="44" width="944" height="472" rx="24" fill="#FFFFFF" stroke="#DCE4EF"/>
+  <rect x="48" y="44" width="944" height="64" rx="24" fill="#EEF4FF"/>
+  <text x="82" y="84" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#174CFF">mcp.json</text>
+  <text x="184" y="84" font-family="Inter, Arial, sans-serif" font-size="15" fill="#667085">Claude Code · Cursor · VS Code compatible</text>
+  <rect x="82" y="142" width="876" height="328" rx="18" fill="#101828"/>
+  <text x="116" y="186" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">{</text>
+  <text x="150" y="222" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#93C5FD">"mcpServers"</text>
+  <text x="280" y="222" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">: {</text>
+  <text x="184" y="258" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#93C5FD">"apiany"</text>
+  <text x="278" y="258" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">: {</text>
+  <text x="218" y="294" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#93C5FD">"command"</text>
+  <text x="318" y="294" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">: </text>
+  <text x="342" y="294" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#FDE68A">"npx",</text>
+  <text x="218" y="330" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#93C5FD">"args"</text>
+  <text x="286" y="330" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">: [</text>
+  <text x="326" y="330" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#FDE68A">"-y", "@apiany-ai/mcp"</text>
+  <text x="596" y="330" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">],</text>
+  <text x="218" y="366" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#93C5FD">"env"</text>
+  <text x="280" y="366" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">: { </text>
+  <text x="326" y="366" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#93C5FD">"APIANY_BASE_URL"</text>
+  <text x="508" y="366" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">: </text>
+  <text x="532" y="366" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#FDE68A">"https://apiany.ai"</text>
+  <text x="746" y="366" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB"> }</text>
+  <text x="184" y="402" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">}</text>
+  <text x="150" y="438" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">}</text>
+  <text x="116" y="474" font-family="JetBrains Mono, Menlo, monospace" font-size="18" fill="#E5E7EB">}</text>
+</svg>

@@ -57,7 +57,7 @@ Skill UI metadata is stored in `skills/apiany-integration/agents/openai.yaml`.
 
 ## Release Checklist
 
-1. Confirm npm organization and token for `@apiany`.
+1. Confirm npm organization and token for `@apiany-ai`.
 2. Confirm npm registry package visibility and release account.
 3. Run MCP validation:
    - `npm install`

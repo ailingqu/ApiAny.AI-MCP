@@ -1,0 +1,34 @@
+<svg width="1040" height="560" viewBox="0 0 1040 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">APIAny MCP tools screenshot</title>
+  <desc id="desc">Agent-style screenshot showing APIAny MCP tool calls and results.</desc>
+  <rect width="1040" height="560" rx="32" fill="#F7FAFC"/>
+  <rect x="44" y="40" width="952" height="480" rx="28" fill="white" stroke="#DCE4EF"/>
+  <text x="82" y="88" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#101828">APIAny MCP in an agent conversation</text>
+  <text x="82" y="118" font-family="Inter, Arial, sans-serif" font-size="15" fill="#667085">Discover models, compare cost, and return production-ready examples without leaving your AI workspace.</text>
+
+  <rect x="82" y="158" width="392" height="86" rx="18" fill="#F2F4F7"/>
+  <text x="110" y="192" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#344054">User prompt</text>
+  <text x="110" y="218" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475467">Find an image model for product photos</text>
+  <text x="110" y="238" font-family="Inter, Arial, sans-serif" font-size="15" fill="#475467">and show JavaScript usage.</text>
+
+  <rect x="566" y="150" width="348" height="290" rx="22" fill="#101828"/>
+  <text x="596" y="192" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#F9FAFB">Tool calls</text>
+  <rect x="596" y="218" width="288" height="44" rx="12" fill="#172033" stroke="#344054"/>
+  <text x="618" y="247" font-family="JetBrains Mono, Menlo, monospace" font-size="15" fill="#6EE7B7">search_models</text>
+  <rect x="596" y="278" width="288" height="44" rx="12" fill="#172033" stroke="#344054"/>
+  <text x="618" y="307" font-family="JetBrains Mono, Menlo, monospace" font-size="15" fill="#6EE7B7">estimate_cost</text>
+  <rect x="596" y="338" width="288" height="44" rx="12" fill="#172033" stroke="#344054"/>
+  <text x="618" y="367" font-family="JetBrains Mono, Menlo, monospace" font-size="15" fill="#6EE7B7">get_integration_examples</text>
+  <text x="596" y="408" font-family="Inter, Arial, sans-serif" font-size="14" fill="#D0D5DD">Paid tools stay locked until the</text>
+  <text x="596" y="430" font-family="Inter, Arial, sans-serif" font-size="14" fill="#D0D5DD">user confirms spend.</text>
+
+  <path d="M500 198H538" stroke="#98A2B3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M524 182L544 198L524 214" stroke="#98A2B3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="82" y="292" width="392" height="148" rx="18" fill="#ECFDF3" stroke="#A6F4C5"/>
+  <text x="110" y="328" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#027A48">Agent answer</text>
+  <text x="110" y="356" font-family="Inter, Arial, sans-serif" font-size="15" fill="#344054">Recommended: nano-banana-pro</text>
+  <text x="110" y="382" font-family="Inter, Arial, sans-serif" font-size="15" fill="#344054">High-quality image generation, async task</text>
+  <text x="110" y="406" font-family="Inter, Arial, sans-serif" font-size="15" fill="#344054">flow, and clear pricing metadata.</text>
+  <text x="110" y="430" font-family="JetBrains Mono, Menlo, monospace" font-size="13" fill="#027A48">await client.images.generate({...})</text>
+</svg>
