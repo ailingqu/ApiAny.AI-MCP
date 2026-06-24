@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.2 - 2026-06-24
+
+- Fixed Official MCP Registry metadata validation for `server.json`.
+- Shortened the registry description to fit the official 100-character limit.
+- Changed `APIANY_BASE_URL` metadata to the supported `string` format.
+
 ## v0.1.1 - 2026-06-24
 
 - Added Official MCP Registry metadata with `mcpName` and `server.json`.

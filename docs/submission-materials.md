@@ -132,9 +132,9 @@ If the platform supports optional secret placeholders, use:
 | --- | --- | --- |
 | GitHub | Done | Repository published at `https://github.com/ailingqu/ApiAny.AI-MCP`. |
 | npm | Done | Package published as `@apiany-ai/mcp`. |
-| GitHub Releases | Done | Release `v0.1.0` exists; `v0.1.1` is prepared for registry metadata. |
+| GitHub Releases | Done | Releases `v0.1.0` and `v0.1.1` exist; `v0.1.2` is prepared for registry metadata validation fixes. |
 | mcp.so | Submitted | Listing is live, but the Overview tab is currently empty. Use the Long Overview above if the listing can be edited. |
-| Official MCP Registry | Prepared | `mcpName` and `server.json` are prepared for the `0.1.1` release; publish after npm `0.1.1` is live. |
+| Official MCP Registry | Prepared | `mcpName` and `server.json` are prepared for the `0.1.2` release; publish after npm `0.1.2` is live. |
 
 ## Recommended Submission Channels
 
@@ -146,7 +146,7 @@ If the platform supports optional secret placeholders, use:
 - Status: Prepared, not submitted
 - Why it matters: This is the official metadata registry. PulseMCP and other downstream registries can ingest from it.
 
-Important: the already-published npm package `0.1.0` does not include the required `mcpName` field. Version `0.1.1` is prepared for registry publishing with:
+Important: the already-published npm package `0.1.0` does not include the required `mcpName` field. Version `0.1.2` is prepared for registry publishing with:
 
 - `package.json` field:
 
@@ -155,9 +155,9 @@ Important: the already-published npm package `0.1.0` does not include the requir
 ```
 
 - top-level `server.json`
-- npm package version `0.1.1`
+- npm package version `0.1.2`
 
-After npm `0.1.1` is live, publish with:
+After npm `0.1.2` is live, publish with:
 
 1. Authenticate with `mcp-publisher login github`.
 2. Publish with `mcp-publisher publish`.
@@ -168,17 +168,17 @@ Suggested `server.json`:
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.ailingqu/apiany-mcp",
-  "description": "Official APIAny MCP server for discovering AI models, estimating credits, reading APIAny docs context, and generating OpenAI-compatible integration examples.",
+  "description": "APIAny MCP server for model discovery, pricing, docs, and integration examples.",
   "repository": {
     "url": "https://github.com/ailingqu/ApiAny.AI-MCP",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@apiany-ai/mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },
@@ -187,7 +187,7 @@ Suggested `server.json`:
           "name": "APIANY_BASE_URL",
           "description": "APIAny base URL. Defaults to https://apiany.ai.",
           "isRequired": false,
-          "format": "uri"
+          "format": "string"
         },
         {
           "name": "APIANY_API_KEY",
@@ -285,7 +285,7 @@ Suggested `server.json`:
 ## Recommended Next Steps
 
 1. Update the mcp.so Overview if their listing can be edited.
-2. Publish npm `0.1.1`, then publish to the Official MCP Registry with `mcp-publisher`.
+2. Publish npm `0.1.2`, then publish to the Official MCP Registry with `mcp-publisher`.
 3. Submit/verify on PulseMCP.
 4. Submit/claim on Glama.
 5. Submit to mcpservers.org.

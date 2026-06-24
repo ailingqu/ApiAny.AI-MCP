@@ -1,6 +1,6 @@
 {
   "name": "@apiany-ai/mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "mcpName": "io.github.ailingqu/apiany-mcp",
   "description": "MCP server for discovering APIAny models, pricing, docs, and integration examples.",
   "type": "module",

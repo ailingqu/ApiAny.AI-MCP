@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.ailingqu/apiany-mcp",
-  "description": "Official APIAny MCP server for discovering AI models, estimating credits, reading APIAny docs context, and generating OpenAI-compatible integration examples.",
+  "description": "APIAny MCP server for model discovery, pricing, docs, and integration examples.",
   "repository": {
     "url": "https://github.com/ailingqu/ApiAny.AI-MCP",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@apiany-ai/mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },
@@ -20,7 +20,7 @@
           "name": "APIANY_BASE_URL",
           "description": "APIAny base URL. Defaults to https://apiany.ai.",
           "isRequired": false,
-          "format": "uri"
+          "format": "string"
         },
         {
           "name": "APIANY_API_KEY",
