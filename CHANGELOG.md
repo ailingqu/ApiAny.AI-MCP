@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.1 - 2026-06-24
+
+- Added Official MCP Registry metadata with `mcpName` and `server.json`.
+- Added reusable MCP directory submission materials.
+- Included registry metadata in the npm package file list.
+
 ## v0.1.0 - 2026-06-23
 
 Initial public release.
