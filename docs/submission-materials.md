@@ -131,10 +131,10 @@ If the platform supports optional secret placeholders, use:
 | Channel | Status | Notes |
 | --- | --- | --- |
 | GitHub | Done | Repository published at `https://github.com/ailingqu/ApiAny.AI-MCP`. |
-| npm | Done | Package published as `@apiany-ai/mcp`. |
-| GitHub Releases | Done | Releases `v0.1.0` and `v0.1.1` exist; `v0.1.2` is prepared for registry metadata validation fixes. |
+| npm | Done | Package published as `@apiany-ai/mcp`; latest version is `0.1.2`. |
+| GitHub Releases | Done | Releases `v0.1.0`, `v0.1.1`, and `v0.1.2` exist. |
 | mcp.so | Submitted | Listing is live, but the Overview tab is currently empty. Use the Long Overview above if the listing can be edited. |
-| Official MCP Registry | Prepared | `mcpName` and `server.json` are prepared for the `0.1.2` release; publish after npm `0.1.2` is live. |
+| Official MCP Registry | Done | Published as `io.github.ailingqu/apiany-mcp` version `0.1.2`; registry status is active. |
 
 ## Recommended Submission Channels
 
@@ -143,7 +143,7 @@ If the platform supports optional secret placeholders, use:
 - URL: `https://registry.modelcontextprotocol.io`
 - Docs: `https://modelcontextprotocol.io/registry/quickstart`
 - Priority: High
-- Status: Prepared, not submitted
+- Status: Submitted
 - Why it matters: This is the official metadata registry. PulseMCP and other downstream registries can ingest from it.
 
 Important: the already-published npm package `0.1.0` does not include the required `mcpName` field. Version `0.1.2` is prepared for registry publishing with:
@@ -157,10 +157,7 @@ Important: the already-published npm package `0.1.0` does not include the requir
 - top-level `server.json`
 - npm package version `0.1.2`
 
-After npm `0.1.2` is live, publish with:
-
-1. Authenticate with `mcp-publisher login github`.
-2. Publish with `mcp-publisher publish`.
+Published with `mcp-publisher` after GitHub device authentication.
 
 Suggested `server.json`:
 
@@ -285,11 +282,10 @@ Suggested `server.json`:
 ## Recommended Next Steps
 
 1. Update the mcp.so Overview if their listing can be edited.
-2. Publish npm `0.1.2`, then publish to the Official MCP Registry with `mcp-publisher`.
-3. Submit/verify on PulseMCP.
-4. Submit/claim on Glama.
-5. Submit to mcpservers.org.
-6. Decide whether to support Smithery/Docker by adding hosted HTTP or Docker packaging.
+2. Submit/verify on PulseMCP.
+3. Submit/claim on Glama.
+4. Submit to mcpservers.org.
+5. Decide whether to support Smithery/Docker by adding hosted HTTP or Docker packaging.
 
 ## Sources Checked
 
