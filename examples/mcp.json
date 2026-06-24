@@ -2,7 +2,7 @@
   "mcpServers": {
     "apiany": {
       "command": "npx",
-      "args": ["-y", "@apiany/mcp"],
+      "args": ["-y", "@apiany-ai/mcp"],
       "env": {
         "APIANY_BASE_URL": "https://apiany.ai",
         "APIANY_API_KEY": "<optional-for-paid-tools>"

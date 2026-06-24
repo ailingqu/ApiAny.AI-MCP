@@ -21,7 +21,7 @@ Official website: [https://apiany.ai](https://apiany.ai)
 ## Install MCP
 
 ```bash
-npx @apiany/mcp
+npx @apiany-ai/mcp
 ```
 
 During local development from this repository:
@@ -45,7 +45,7 @@ Environment variables:
   "mcpServers": {
     "apiany": {
       "command": "npx",
-      "args": ["-y", "@apiany/mcp"],
+      "args": ["-y", "@apiany-ai/mcp"],
       "env": {
         "APIANY_BASE_URL": "https://apiany.ai"
       }

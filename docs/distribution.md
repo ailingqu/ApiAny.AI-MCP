@@ -5,7 +5,7 @@ This document is the release checklist for publishing the APIAny MCP server and 
 ## Artifacts
 
 - MCP package: repository root
-- npm package name: `@apiany/mcp`
+- npm package name: `@apiany-ai/mcp`
 - Skill package: `skills/apiany-integration`
 - Planning doc: `docs/plan.md`
 
@@ -35,7 +35,7 @@ Paid tools require `APIANY_API_KEY` and `confirm_paid_request=true`.
   "mcpServers": {
     "apiany": {
       "command": "npx",
-      "args": ["-y", "@apiany/mcp"],
+      "args": ["-y", "@apiany-ai/mcp"],
       "env": {
         "APIANY_API_KEY": "<optional-for-paid-tools>"
       }

@@ -6,7 +6,7 @@ Build an APIAny agent distribution layer so AI coding agents and assistant hosts
 
 ## Product Shape
 
-- `@apiany/mcp`: an MCP server package installable by `npx`, usable from Claude Code, Cursor, VS Code, Windsurf, Roo, and other MCP-compatible hosts.
+- `@apiany-ai/mcp`: an MCP server package installable by `npx`, usable from Claude Code, Cursor, VS Code, Windsurf, Roo, and other MCP-compatible hosts.
 - `skills/apiany-integration`: a reusable agent skill that teaches Codex/agent runtimes how to select APIAny models, migrate OpenAI-compatible clients, and estimate costs.
 - Documentation pages: installation guide, host configuration examples, tool reference, publishing guide, and safety notes.
 - Distribution metadata: README badges, platform descriptions, screenshots, example configs, and submission copy for MCP registries.
@@ -33,7 +33,7 @@ Configuration:
 - `APIANY_API_KEY`, optional. Read-only tools work without it when public endpoints are enough.
 
 Acceptance:
-- MCP server starts from `npx @apiany/mcp`.
+- MCP server starts from `npx @apiany-ai/mcp`.
 - `tools/list` exposes the MVP tools.
 - `tools/call` returns structured text/JSON.
 - No secrets are printed.
@@ -70,7 +70,7 @@ Safety:
 ## Phase 4: Distribution
 
 Targets:
-- npm: `@apiany/mcp`
+- npm: `@apiany-ai/mcp`
 - GitHub Releases
 - Official MCP Registry
 - Smithery
@@ -92,7 +92,7 @@ Required assets:
 
 ## Required User Cooperation
 
-- Confirm npm package scope/name: confirmed `@apiany/mcp`.
+- Confirm npm package scope/name: confirmed `@apiany-ai/mcp`.
 - Public package license confirmed as MIT for this project.
 - Provide npm publish access or publish token when ready.
 - Provide access to MCP registry accounts if submissions should be done by the agent.
@@ -111,7 +111,7 @@ Required assets:
 - Official website logo/favicon copied into the skill assets folder for distribution.
 - Distribution checklist added at `docs/distribution.md`.
 - MCP package license set to MIT.
-- NPM package name confirmed as `@apiany/mcp`.
+- NPM package name confirmed as `@apiany-ai/mcp`.
 - Registry publishing is waiting for user-provided account access.
 
 ## Implementation Order

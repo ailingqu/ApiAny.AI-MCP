@@ -1,5 +1,5 @@
 {
-  "name": "@apiany/mcp",
+  "name": "@apiany-ai/mcp",
   "version": "0.1.0",
   "description": "MCP server for discovering APIAny models, pricing, docs, and integration examples.",
   "type": "module",
@@ -12,7 +12,7 @@
     "url": "https://github.com/ailingqu/ApiAny.AI-MCP/issues"
   },
   "bin": {
-    "apiany-mcp": "./src/server.js"
+    "apiany-mcp": "src/server.js"
   },
   "files": [
     "src",
